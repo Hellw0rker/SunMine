@@ -35,9 +35,10 @@
 
 .menu {
     margin-left: 30%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial;
     display: flex;
     text-decoration: none;
+    font-weight: 600;
 }
 
 .menu li {
