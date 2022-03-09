@@ -88,6 +88,7 @@
 
 .main_invis {
     width: 100%;
+    min-height: 600px;
     height: 85vh;
     margin: 90 0px;
     font-family: Arial;
