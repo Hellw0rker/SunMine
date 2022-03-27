@@ -373,7 +373,7 @@
 }
 
 .footr a img {
-    margin: 15 0px;
+    margin: 30 auto;
 }
 
 .img_foot {
@@ -527,7 +527,7 @@
 
 @media (max-width: 525px) {
     .footer {
-        height: 160px;
+        height: 190px;
         flex-wrap: wrap;
     }
     .footl {
@@ -547,7 +547,7 @@
         text-align: center;
     }
     .footr a img {
-        margin: -18px 0px;
+        margin: 0 auto;
     }
     .img_foot {
         text-align: center;
