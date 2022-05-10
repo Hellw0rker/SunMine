@@ -1,0 +1,863 @@
+.body {
+    min-height: 200vh;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    background-color: #115e59;
+    border-bottom: 2px solid #0f766e;
+}
+
+.header .container {
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    max-width: 90%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.logo {
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.menu {
+    margin-left: 30%;
+    font-family: Arial;
+    display: flex;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.menu li {
+    transition: bac 1s linear;
+    margin-left: 50px;
+}
+
+.menu li a {
+
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color:#14b8a6;
+    text-decoration: underline;
+    text-decoration: none;
+}
+
+
+.main {
+    width: 100%;
+    margin: 90 0;
+}
+
+.main_about {
+    width: 100%;
+    height: 90vh;
+    margin: 90 0;
+    font-family: arial;
+}
+
+.main_home {
+    width: 100%;
+    margin-top: 90px;
+    top: 0;
+    left: 0;
+}
+
+.main_wiki {
+    width: 100%;
+    height: 70.7vh;
+    font-family: Arial;
+    display: flex;
+    min-height: 800px;
+    margin-top: 90px;
+}
+
+.main_invis {
+    width: 100%;
+    height: 85vh;
+    margin: 90 0px;
+    font-family: Arial;
+    display: flex;
+    min-height: 700px;
+}
+
+
+.rules {
+    width: 100%;
+    min-height: 190vh;
+}
+
+.osnova {
+    width: 100%;
+    background: #134e4a;;
+    color: #fff;
+    font-family: Arial;
+    font-size: 20px;
+    padding: 100px 40px;
+}
+
+.content {
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.proect {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.img_pr {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img1 {
+    width: 50%;
+    padding: 10 20px;
+}
+
+.img1 img {
+    border-radius: 10px;
+    box-shadow: 0 1px 8px grey;
+}
+
+.img2 {
+    width: 50%;
+    padding: 10 20px;
+}
+
+.img2 img {
+    box-shadow: 0 1px 8px grey;
+    border-radius: 10px;
+}
+
+.img1_2 {
+    width: 50%;
+    padding: 10 20px;
+}
+
+.img1_2 img {
+    box-shadow: 0 1px 8px grey;
+    border-radius: 10px;
+}
+
+.img2_1 {
+    width: 50%;
+    padding: 10px 20px;
+}
+
+.img2_1 img {
+    box-shadow: 0 1px 8px grey;
+    border-radius: 10px;
+}
+.img3_1 {
+    width: 50%;
+    padding: 10 20px;
+}
+.img3_1 img {
+    box-shadow: 0 1px 8px grey;
+    border-radius: 10px;
+}
+.img3_2 {
+    width: 50%;
+    padding: 10 20px;
+}
+.img3_2 img {
+    box-shadow: 0 1px 8px grey;
+    border-radius: 10px;
+}
+
+.ivent {
+    display: flex;
+    flex-direction: column;
+}
+
+.img_iv {
+    display: flex;
+}
+
+.img3 {
+    width: 50%;
+    padding: 10 20px;
+}
+
+.img4 {
+    width: 50%;
+    padding: 10 20px;
+}
+
+.img3 img {
+    box-shadow: 0 1px 8px grey;
+    border-radius: 10px;
+}
+
+.img4 img {
+    box-shadow: 0 1px 8px grey;
+    border-radius: 10px;
+}
+.rules ol li {
+    font-family: Arial;
+}
+.one_rules {
+    font-family: Arial;
+    left: 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 8px grey;
+    width: 101%;
+    margin: 0 -25;
+    color: black;
+}
+
+.two_rules {
+    font-family: Arial;
+    left: 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 8px grey;
+    width: 101%;
+    margin: 0 -25;
+    color: black;
+}
+
+.three_rules {
+    font-family: Arial;
+    left: 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 8px grey;
+    width: 101%;
+    margin: 0 -25;
+    color: black;
+}
+
+.four_rules {
+    font-family: Arial;
+    left: 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 8px grey;
+    width: 101%;
+    margin: 0 -25;
+    color: black;
+}
+
+.five_rules {
+    font-family: Arial;
+    left: 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 8px grey;
+    width: 101%;
+    margin: 0 -25;
+    color: black;
+}
+
+.sez {
+    width: 97%;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px rgb(201, 196, 196) solid;
+    margin: 10 20;
+}
+
+.menu_sez {
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    margin: 9 300px;
+}
+
+.menu_sez li {
+    margin-left: 30px;
+}
+
+.menu_sez li a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu_sez li a:hover {
+    color:#14b8a6;
+    text-decoration: underline;
+    text-decoration: none;
+}
+
+.but_wik {
+    width: 25%;
+}
+
+.osn_wik {
+    width: 75%;
+}
+
+.kom {
+    width: 250px;
+    height: 80px;
+    border-radius: 5px;
+    border: 2px rgb(201, 196, 196) solid;
+    margin: 10 20px;
+    display: flex;
+}
+
+.kom:hover {
+    background: rgb(185, 183, 183);
+    text-decoration: underline;
+    text-decoration: none;
+}
+.kom img {
+    margin-top: 22px;
+}
+.kom p {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 23px;
+    margin-right: 20px;
+}
+.ram {
+    width: 250px;
+    left: 0;
+    height: 80px;
+    border-radius: 5px;
+    border: 2px rgb(201, 196, 196) solid;
+    margin: 20 20px;
+    display: flex;
+}
+.ram:hover {
+    background: rgb(185, 183, 183);
+    text-decoration: underline;
+    text-decoration: none;
+}
+.ram p {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.ras {
+    width: 700px;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px rgb(201, 196, 196) solid;
+    margin: 63px auto 0
+}
+.ras p {
+    padding: 11px 10px;
+    font-family: arial;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.voice {
+    width: 250px;
+    left: 0;
+    height: 80px;
+    border-radius: 5px;
+    border: 2px rgb(201, 196, 196) solid;
+    margin: 20 20px;
+    display: flex;
+}
+.voice:hover {
+    background: rgb(185, 183, 183);
+    text-decoration: underline;
+    text-decoration: none;
+}
+.voice img {
+    margin-top: 13px;
+    width: 37px;
+}
+.voice p {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.ip {
+    width: 700px;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px rgb(201, 196, 196) solid;
+    margin: 15px auto 0
+}
+.ip p {
+    padding: 11px 10px;
+    font-family: arial;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.otp {
+    width: 700px;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px rgb(201, 196, 196) solid;
+    margin: 15px auto 0
+}
+.otp p {
+    padding: 11px 10px;
+    font-family: arial;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.copy_link_mess{
+    line-height:40px;
+    border-radius:5px;
+    background:#1DA1F2;
+    color:#fff;
+    position:fixed;
+    padding:0 15px;
+    z-index:99;
+    bottom:30px;
+    left:50%;
+    margin-left:-120px;
+    display:none;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 15px;
+    }
+
+
+.comand {
+    width: 600px;
+    margin: 63 auto;
+    border-radius: 5px;
+    border: 2px rgb(201, 196, 196) solid;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20 25;
+}
+
+.comand p {
+    margin-top: 10px;
+}
+
+.frame {
+    width: 540px;
+    margin: 62 auto;
+    border-radius: 5px;
+    border: 2px rgb(201, 196, 196) solid;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20 25;
+}
+
+.plasmo_voice {
+    width: 550px;
+    height: auto;
+    border: 2px rgb(201, 196, 196) solid;
+    border-radius: 5px;
+    margin: 62px auto;
+    padding: 10px 10px;
+    font-size: 18px;
+    display: flex;
+}
+.plasmo_voice div a {
+     text-decoration: none;
+     color: #1DA1F2;
+}
+
+
+.footer {
+    width: 100%;
+    height: 110px;
+    bottom: 0;
+    background-color: #115e59;
+    display: flex;
+    margin-top: 50px;
+}
+
+.footl {
+    width: 85%;
+}
+
+.footr {
+    width: 15%;
+}
+
+.footr a img {
+    margin: 30 auto;
+}
+
+.img_foot {
+    text-align: center;
+}
+
+.footer p a {
+    color: white;
+}
+
+@media (max-width: 1090px) {
+    .menu {
+        margin-left: 0%
+    }
+}
+
+@media (max-width: 770px) {
+    .menu li {
+        margin-left: 40px;
+    }
+    .osnova {
+        font-size: 15px;
+        padding: 15px 20px;
+    }
+    .img_pr {
+        flex-direction: column;
+    }
+    .img1 {
+        width: 100%;
+    }
+    .img2 {
+        width: 100%;
+    }
+    .img1_2 {
+        width: 100%;
+    }
+    .img2_1 {
+        width: 100%;
+    }
+    .img3_1 {
+        width: 100%;
+    }
+    .img3_2 {
+        width: 100%;
+    }
+    .img_iv {
+        flex-direction: column;
+    }
+    .img3 {
+        width: 100%;
+    }
+    .img4 {
+        width: 100%;
+    }
+    .footer {
+        height: 100px;
+    }
+    .logo2 {
+        font-size: 20px;
+    }
+    .main_invis {
+        height: 115vh;
+    }
+    .main_wiki {
+        height: 80vh;
+    }
+}
+
+@media (max-width: 770px) {
+    .menu li {
+        margin-left: 30px;
+    }
+}
+
+
+ @media (max-width: 1020px) {
+     .main_wiki {
+        flex-direction: column;
+     }
+     .main_invis {
+        flex-direction: column;
+        height: auto;
+     }
+     .but_wik {
+        height: 40%;
+        width: 100%;
+     }
+     .but_wik p {
+         text-align: center;
+     }
+     .osn_wik {
+         height: 60%;
+         width: 100%;
+     }
+     .kom {
+        margin: 10 auto 0;
+     }
+     .ram {
+        margin: 15 auto 0;
+     }
+     .voice {
+         margin: 15 auto 0;
+     }
+     .ras {
+        margin: 40px auto 0;
+        width: 90%;
+        height: auto;
+     }
+     .ip {
+         width: 90%;
+         height: auto;
+     }
+     .otp {
+         width: 90%;
+         height: auto;
+     }
+} 
+
+@media (max-width: 625px) {
+    .but_wik {
+        flex-direction: column;
+        align-items: center;
+    }
+    .ram {
+        margin-top: 10;
+    }
+    .comand {
+        margin-top: 60;
+        width: 95%;
+        margin-left: 10;
+    }
+    .frame {
+        width: 95%;
+        margin-top: 10;
+        margin-left: 10;
+    }
+}
+@media (max-height: 620px) {
+    .main_wiki {
+        height: 90vh;
+    }
+}
+@media (max-height: 540px) {
+    .main_wiki {
+        height: 100vh;
+    }
+}
+
+@media (max-width: 570px) {
+    .plasmo_voice {
+        width: 90%;
+        margin: 30  auto;
+    }
+}
+
+@media (max-width: 525px) {
+    .footer {
+        height: 190px;
+        flex-wrap: wrap;
+    }
+    .footl {
+        width: 100%;
+        height: 70%;
+    }
+    .footr {
+        width: 100%;
+        height: 30%;
+    }
+    .logo2 {
+        margin: 0 0px;
+        text-align: center;
+    }
+    .foottext {
+        margin: 0 0px;
+        text-align: center;
+    }
+    .footr a img {
+        margin: 0 auto;
+    }
+    .img_foot {
+        text-align: center;
+    }
+}
+
+@media (max-width: 425px) {
+    .main_wiki {
+        height: 80vh;
+    }
+    .main_invis {
+        height: 110vh;
+    }
+
+    .but_wik {
+        height: 25%;
+        width: 100%;
+    }
+    .osn_wik {
+        height: 75%;
+        width: 100%;
+    }
+
+    .kom {
+        height: 45px;
+    }
+    .kom img {
+        margin-top: 8px;
+        width: 24px
+    }
+    .kom p {
+        font-size: 16px;
+        margin-right: 45px;
+        margin-top: 10px;
+    }
+    
+    .ram {
+        height: 45px;
+    }
+    .ram img {
+        width: 40px;
+    }
+    .ram p {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .voice {
+        height: 45px;
+    }
+    .voice img {
+        width: 25px;
+        margin-top: 8px;
+    }
+    .voice p {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .ras {
+        margin: 0 auto;
+        width: 90%;
+        margin-top: 60px;
+    }
+    .ras p {
+        font-size: 13px;
+        font-weight: 700;
+    }
+
+    .ip p {
+        font-size: 13px;
+        font-weight: 700;
+    }
+
+    .otp p {
+        font-size: 13px;
+        font-weight: 700;
+    }
+
+    .comand {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+    .frame {
+        font-size: 16px;
+    }
+
+    .plasmo_voice {
+        width: 95%;
+        margin: 0  auto;
+        font-size: 14px;
+        margin-top: 60px;
+    }
+    .plasmo_voice div img {
+        width: auto;
+    }
+}
+
+
+nav{
+    padding: 0;
+    margin: 0;
+}
+
+.menu{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menuToggle{  
+    color: #fff;
+    padding: 10px 15px;
+    cursor: pointer;
+    display: none;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+@media( max-width: 700px){
+    .menuToggle{
+        display: block;
+    }
+    .menu{
+        display: none;
+        position: absolute;
+        background: #115e59;
+        width: 100%;
+        height: 200px;
+        left: 0;
+        top: 90;
+    }
+    .menu li{
+        display: block;
+        text-align: center;
+        margin: 0;
+        margin-top: 10px;
+    }
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.hamburger {
+    width: 40px;
+    height: 4px;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    transition: 0.5s;
+    display: inline-block;
+    margin-left: 12px;
+}
+
+.hamburger:before,
+.hamburger:after {
+    content: "";
+    width: 40px;
+    height: 4px;
+    position: absolute;
+    background: #fff;
+    transition: 0.5s;
+}
+
+.hamburger:before {
+    top: -16px;
+}
+
+.hamburger:after {
+    top: 16px;
+}
+
+.icon.active .hamburger {
+    background: rgba(0, 0, 0, 0);
+}
+
+.icon.active .hamburger:before {
+    top: 0;
+    transform: rotate(45deg);
+}
+
+.icon.active .hamburger:after {
+    top: 0;
+    transform: rotate(135deg);
+}
