@@ -8,7 +8,7 @@
 
         <meta property="og:title" content="Вики">
         <meta property="og:description" content="Общие проекты, ивенты, дружное сообщество —  идеальные условия, чтобы раскрыть свой творческий потенциал в среде ванильного выживания">
-        <meta property="og:image" content="https://www.iconspedia.com/dload.php?up_id=220722">
+        <meta property="og:image" content="img/magnifier.png">
         <meta property="og:image:width" content="128">
         <meta property="og:image:height" content="128">
         <meta property="og:site_name" content="SunMine">
@@ -17,8 +17,8 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <header class="header">
@@ -63,45 +63,94 @@
                 <p style="color:rgb(27, 109, 102); font-family: Arial ; font-weight: 600; font-size: 35px; margin-left: 20px;">
                     Вики
                 </p>
-                <div class="kom">
-                    <img src="img/шест.png" alt="" width="32" style="margin: 23 30px;"> 
-                    <p style="font-size: 20px; font-weight: 600; margin-top: 23;"> 
-                        <a href="wiki.html" style="text-decoration: none; color: black;">
-                            Команды
-                        </a>
-                    </p>
+                <div>
+                    <a href="wiki/command.html" style="text-decoration: none;">
+                    <button class="kom">
+                        <div style="width: 30%; height: 100%;">
+                            <img src="img/шест.png" width="32" alt="">
+                        </div>
+                        <div style="width: 70%; height: 100%;">
+                            <p>
+                                Команды
+                            </p>
+                        </div>
+                    </button>
+                    </a>
                 </div>
-                <div class="ram">
-                    <img src="img/Рамка.png" alt="" style="margin:  10 15px;">
-                    <p style="font-size: 20px; font-weight: 600; margin-top: 23;"> 
-                        <a href="invis.html" style="text-decoration: none; color: black;">
-                            Invisible frame
+                <div>
+                    <a href="wiki/invis.html" style="text-decoration: none;">
+                    <button class="ram">
+                        <div style="width: 30%; height: 100%;">
+                            <img src="img/Рамка.png"  alt="">
+                        </div>
+                        <div style="width: 70%; height: 100%;">
+                            <p>
+                                Invisible frame
+                            </p>
+                        </div>
+                    </button>
+                    </a>
+                </div>
+                <div>
+                    <a href="wiki/voice.html" style="text-decoration: none;">
+                        <button class="voice">
+                            <div style="width: 30%; height: 100%;">
+                                    <img src="img/plasmo_voice.png"  alt="">
+                            </div>
+                            <div style="width: 70%; height: 100%;">
+                                <p>
+                                    Plasmo Voice
+                                </p>
+                            </div>
+                        </button>
                         </a>
-                    </p>
                 </div>
             </div>
             <div class="osn_wik">
-                <div class="comand">
-                    <h3>
-                        Команды для игроков
-                    </h3>
+                <div class="ras">
                     <p>
-                        /register (пароль) (повтор пароля) - регистрация
-                    </p>
-                    <p>
-                        /login (пароль) - авторизация
-                    </p>
-                    <p>
-                        /m (ник) (сообщения) - написать сообщения игроку в лс
-                    </p>
-                    <p>
-                        /lay - лечь
-                    </p>
-                    <p>
-                        /sit - сесть
+                        Расписание перезагрузок сервера: 7:30, 14:00, 20:00
                     </p>
                 </div>
+                <div class="ip">
+                    <p>
+                            IP сервера: 
+                            <span class="text_copy_link">
+                                sunmine.aboba.host 
+                                <button style="border-radius: 3px; border: 1px solid rgb(201, 196, 196);">
+                                    <img src="img/copy.png" width="13px">
+                                </button>
+                            </span>
+                    </p>
+                </div>
+                <div class="otp">
+                    <p>
+                        Чтобы попасть на сервер пишите мне в лс в discord - 
+                        <span class="text_copy_link">
+                            Hellw0rker#3994
+                            <button style="border-radius: 3px; border: 1px solid rgb(201, 196, 196);">
+                                <img src="img/copy.png" width="13px">
+                            </button>
+                        </span>
+                    </p>
+                </div>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+                <script>
+                    jQuery(document).ready(function($){
+                    $('.text_copy_link').click(function() {
+                    var $text_copy = $(this);
+                    var $temp = $("<input>");
+                    $("body").append($temp);
+                    $temp.val($text_copy.text()).select();
+                    document.execCommand("copy");
+                    $temp.remove();
+                    $('.copy_link_mess').fadeIn(400);
+                    setTimeout(function(){$('.copy_link_mess').fadeOut(400);},5000);
+                    });
+                    });
+                    </script>
             </div>
+            <div class="copy_link_mess">Скопировано в буфер обмена</div>
         </main>
         <footer class="footer">
                 <div class="footl">
