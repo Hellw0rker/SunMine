@@ -798,11 +798,11 @@
     }
 
     .but_wik {
-        height: 25%;
+        height: 35%;
         width: 100%;
     }
     .osn_wik {
-        height: 75%;
+        height: 65%;
         width: 100%;
     }
 
@@ -874,7 +874,6 @@
         width: 95%;
         margin: 0  auto;
         font-size: 14px;
-        margin-top: 60px;
     }
     .plasmo_voice div img {
         width: auto;
