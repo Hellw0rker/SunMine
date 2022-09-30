@@ -537,6 +537,17 @@
      color: #1DA1F2;
 }
 
+.info {
+    width: fit-content;
+    height: auto;
+    border: 2px rgb(201, 196, 196) solid;
+    margin: 15px auto;
+    border-radius: 17px;
+    padding: 10px 10px;
+    font-size: 21px;
+    color: #fff;
+}
+
 
 .footer {
     width: 100%;
